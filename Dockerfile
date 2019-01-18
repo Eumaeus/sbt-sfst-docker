@@ -14,7 +14,5 @@ RUN \
 
 ENV SBT_OPTS="-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Xss2M"
 
-WORKDIR /repo
-
 CMD sbt console
 

@@ -6,7 +6,7 @@ A Docker image containing SBT and SFST
 
 1. Navigate to a directory that contains a `build.sbt` file.
 
-1. `docker run -ti -v $(pwd):/repo eumaeus/sbt-sfst-docker:v2`
+1. `docker run -ti -v $(pwd):/workspace eumaeus/sbt-sfst-docker:v3`
 
 If you get errors about the directory mapping, perhaps look at [this page](https://docs.docker.com/docker-for-mac/osxfs/#namespaces).
 
