@@ -20,7 +20,19 @@ To restart the container:
 
     docker exec -ti citeWork sbt console
 
+## Helpfult Docker Commands
 
+See all existing Docker instances with:
+
+> `docker ps -a`
+
+Kill a running Docker instance by getting its PID (the long number revealed by the command above) and doing:
+
+> `docker kill XXXXXXX`
+
+Remove named instances with:
+
+> `docker rm XXXXX`
 
 If you get errors about the directory mapping, perhaps look at [this page](https://docs.docker.com/docker-for-mac/osxfs/#namespaces).
 
