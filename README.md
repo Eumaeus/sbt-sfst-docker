@@ -6,7 +6,7 @@ A Docker image containing SBT and SFST
 
 1. Navigate to a directory that contains a `build.sbt` file.
 
-1. `docker run --name citeWork -ti -v $(pwd):/workspace eumaeus/sbt-sfst-docker:v3`
+1. `docker run --name citeWork -ti -v $(pwd):/workspace eumaeus/sbt-sfst-docker:v4`
 
 This starts a Docker Container named "citeWork", and will execute `sbt console`.
 
